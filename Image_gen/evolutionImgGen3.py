@@ -107,7 +107,7 @@ def evolve_images(reference_image, reference_features, model, population_size, g
         plt.imshow(best_image)
         plt.title(f'Generation {gen+1}')
         plt.axis('off')
-        plt.savefig(f'generated_diya_images/gen_{gen+1}.png')
+        plt.savefig(f'generated_images/gen_{gen+1}.png')
         plt.show()
 
     return population[0]  # Return the best image from the final generation
