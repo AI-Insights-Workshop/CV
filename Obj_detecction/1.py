@@ -5,7 +5,7 @@ face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_fronta
 
 # Read the image
 img = cv2.imread('1.jpg')
-# Resize your image
+# img = cv2.resize(img, (500, 500))
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 # Perform face detection
